@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 2rem 0 3rem 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.outer-container {
+    border: 2px solid #007BFF;
+    box-shadow: 0.3rem 0.3rem skyblue;
+    padding: 20px;
+    width: 320px;
+    margin: 100px auto;
+    background-color: rgba(241, 241, 241, 0.493);
+}
+.container {
+    width: 100%;
+}
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
+.answer-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding-top: 3px;
+}
+.text-block {
+    padding: 0 8px 0 2px;
+    margin: auto;
+    font-weight: 600;
+    width: 5rem;
+    height: 15px;
+}
+.answer-block {
+    width: calc(50% - -160px);
+    padding: 8px 0 8px 0;
+    text-align: left;
+    margin: auto;
+    height: 15px;
+}
